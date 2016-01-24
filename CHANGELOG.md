@@ -13,6 +13,33 @@ _Note: Gaps between patch versions are faulty, broken or test releases._
 
 See [CHANGELOG - 6to5](CHANGELOG-6to5.md) for the pre-4.0.0 version changelog.
 
+## Unreleased (2016-01-25)
+
+* **New Feature**
+  * `babel-core`
+  * [#3281](https://github.com/babel/babel/pull/3281) [RFC] Pass per preset. ([@DmitrySoshnikov](https://github.com/DmitrySoshnikov))
+  * `babel-helper-transform-fixture-test-runner`,`babel-plugin-transform-react-jsx-source`
+  * [#3285](https://github.com/babel/babel/pull/3285) Hoist current file name for transform-react-jsx-source. ([@frantic](https://github.com/frantic))
+
+* **Bug Fix**
+  * `babel-helper-remap-async-to-generator`,`babel-plugin-transform-async-to-generator`
+  * [#3297](https://github.com/babel/babel/pull/3297) [hotfix][T2765#72428] Wrong  'this'  for nested arrow in arrow function. ([@horpto](https://github.com/horpto))
+
+* **Documentation**
+  * [#3293](https://github.com/babel/babel/pull/3293) update spec decorator property. ([@hzoo](https://github.com/hzoo))
+  * [#3295](https://github.com/babel/babel/pull/3295) ast/spec: add BindExpression. ([@hzoo](https://github.com/hzoo))
+  * [#3287](https://github.com/babel/babel/pull/3287) [doc] Correct use of possessive case. ([@nettofarah](https://github.com/nettofarah))
+
+* **Internal**
+  * `babel-types`
+  * [#3294](https://github.com/babel/babel/pull/3294) WithStatements can have statements as bodies. ([@amasad](https://github.com/amasad))
+  * `babel-types`
+  * [#3292](https://github.com/babel/babel/pull/3292) UnaryExpressions are never not prefix. ([@amasad](https://github.com/amasad))
+
+* **Polish**
+  * `babel-generator`
+  * [#3283](https://github.com/babel/babel/pull/3283) Improve generator performance. ([@gzzhanghao](https://github.com/gzzhanghao))
+
 ## 6.4.6 (2016-01-20)
 
 * **Bug Fix**
